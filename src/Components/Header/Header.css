@@ -1,0 +1,42 @@
+.p-menubar {
+  padding: 0.5rem;
+  /* background: red; */
+  color: #4b5563;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem:not(.p-highlight):not(.p-disabled)
+  > .p-menuitem-content:hover
+  .p-menuitem-link
+  .p-menuitem-text {
+  color: #2e5132;
+  font-weight: 800;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover .p-menuitem-link .p-menuitem-icon, .p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover .p-menuitem-link .p-submenu-icon {
+    color: #2e5132;
+    font-weight: 800;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link {
+  font-weight: 800;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
+    color: #4b5563;
+    font-weight:800;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+  color: black;
+  background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
